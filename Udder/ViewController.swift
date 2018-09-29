@@ -23,5 +23,9 @@ class ViewController: UIViewController {
     override func viewWillLayoutSubviews() {
         let dhs = "d hieu tao dang lam gi"
     }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        let dhs = " lam cai gi day "
+    }
 }
 
