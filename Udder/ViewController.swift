@@ -20,6 +20,8 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    override func viewWillLayoutSubviews() {
+        let dhs = "d hieu tao dang lam gi"
+    }
 }
 
